@@ -13,9 +13,6 @@
     </modules>
     <packaging>pom</packaging>
 
-    <dependencies>
-
-    </dependencies>
 
     <build>
         <plugins>
@@ -61,4 +58,6 @@
 
         </plugins>
     </build>
+
+
 </project>

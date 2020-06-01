@@ -11,5 +11,34 @@
 
     <artifactId>server</artifactId>
 
+<!--    <build>-->
+<!--        <plugins>-->
+<!--            <plugin>-->
+<!--                <groupId>org.apache.cxf</groupId>-->
+<!--                <artifactId>cxf-codegen-plugin</artifactId>-->
+<!--                <version>3.2.7</version>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <id>generate-sources</id>-->
+<!--                        <phase>generate-sources</phase>-->
+<!--                        <configuration>-->
+<!--                            <sourceRoot>-->
+<!--                                ${project.basedir}/src/main/java-->
+<!--                            </sourceRoot>-->
+<!--                            <wsdlOptions>-->
+<!--&lt;!&ndash;                                <wsdlOption>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <wsdl>${project.basedir}/src/main/resources/Service.wsdl</wsdl>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </wsdlOption>&ndash;&gt;-->
+<!--                                <wsdlOption>-->
+<!--                                    <wsdl>${project.basedir}/src/main/resources/HelloService.wsdl</wsdl>-->
+<!--                                </wsdlOption>-->
+<!--                            </wsdlOptions>-->
+<!--                        </configuration>-->
+<!--                        <goals><goal>wsdl2java</goal></goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
 
+<!--        </plugins>-->
+<!--    </build>-->
 </project>
